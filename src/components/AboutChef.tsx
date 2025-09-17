@@ -75,22 +75,22 @@ export default function AboutChef() {
         <h2
           className={`${typography.h1} col-span-1 row-span-2 self-center md:col-span-6 lg:col-span-6 lg:col-start-7
                       text-primary-foreground drop-shadow-[8px_8px_8px_rgba(0,0,0,0.25)]`}>
-          About Little Lemon
+          Meet Our Chef
         </h2>
 
         {/* Subtitle */}
         <h3
           className={`${typography.h2} col-span-1 row-span-2 self-center md:col-span-6 lg:col-span-6 lg:col-start-7
                       text-primary-foreground drop-shadow-[8px_8px_8px_rgba(0,0,0,0.25)]`}>
-          Locally sourced, lovingly prepared, authentically Mediterranean.
+          A journey of flavors, family, and passion.
         </h3>
 
         {/* Body text */}
         <div className='col-span-1 row-span-5 self-center md:col-span-6 lg:col-span-6 lg:col-start-7'>
           {[
-            "Little Lemon is a family-owned Mediterranean restaurant, blending tradition with modern flavors. Our chefs craft dishes with fresh ingredients, inspired by classic Italian and Greek cuisine.",
-            "From handmade pastas to signature lemon-inspired recipes, we bring warmth, authenticity, and bold flavors to every plate.",
-            "Whether you're joining us for a family dinner, a romantic night out, or a special celebration, Little Lemon welcomes you with heartfelt hospitality.",
+            "For Chef Antonio, cooking has always been about family. He grew up in a small coastal town, where evenings were filled with the aroma of simmering stews and the laughter of loved ones gathered around the table.",
+            "Those childhood memories inspired him to dedicate his life to food. At Little Lemon, he weaves together the flavors of his heritage with fresh, local ingredients — creating dishes that feel both timeless and new.",
+            "When you dine with us, you’re not just tasting a meal. You’re sharing in Antonio’s story, one that celebrates tradition, creativity, and the joy of bringing people together.",
           ].map((paragraph, index) => (
             <p
               key={index}

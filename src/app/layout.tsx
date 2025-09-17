@@ -6,6 +6,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Little Lemon Restaurant",
   description: "Welcome to Little Lemon",
+  icons: {
+    icon: "/favicon.svg", // ✅ SVG favicon
+  },
 };
 
 export default function RootLayout({

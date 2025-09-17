@@ -12,7 +12,7 @@ This repository contains the codebase for the Little Lemon website and app.
 - **Styling:** Tailwind CSS, Schadcn, Motion
 - **Deployment:** Vercel
 
-## Getting Started
+## Note
 
 I disabled linting in the package.json for builds
 

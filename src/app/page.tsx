@@ -1,10 +1,13 @@
 import Hero from "../components/Hero";
-import AboutTheRestaurant from "@/components/AboutTheRestaurant";
-import SignatureDishesPreview from "@/components/SignatureDishesPreview";
-import Reservation from "@/components/Reservation";
-import PhotoGallery from "@/components/PhotoGallery";
-import KnowMoreSection from "@/components/KnowMore";
-import AboutChef from "@/components/AboutChef";
+import {
+  PhotoGallery,
+  Reservation,
+  KnowMoreSection,
+  AboutChef,
+  AboutTheRestaurant,
+  SignatureDishesPreview,
+} from "@/components/ClientWrapper";
+
 // import { AboutLarge } from "@/components/AboutChefLarge";
 // import { AboutSmallMedium } from "@/components/AboutChefSmallMedium";
 // import Test1 from "@/components/TestMe";

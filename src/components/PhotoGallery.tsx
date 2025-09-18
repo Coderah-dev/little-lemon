@@ -86,7 +86,7 @@ export default function PhotoGallery() {
         <Button
           size='lg'
           className={`${typography.cta} bg-[#F4CE14] text-black rounded-2xl px-6 py-2 shadow-md w-max hover:bg-[rgb(var(--accent-dark))]`}>
-          Reserve a Table
+          See More
         </Button>
       </div>
 
@@ -111,12 +111,19 @@ export default function PhotoGallery() {
                         alt={photo.alt}
                         fill
                         className='object-cover rounded-t-xl'
+                        // ✅ Optimize delivery
+                        sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+                        // ✅ Only first visible image gets priority
+                        priority={i === 0}
+                        // ✅ Others explicitly lazy load
+                        loading={i === 0 ? "eager" : "lazy"}
+                        placeholder='blur'
                       />
                     </div>
                     <div className='flex flex-col gap-2 p-4'>
-                      <h3 className={`${typography.h3} text-black`}>
+                      <h2 className={`${typography.h2} text-black`}>
                         {photo.title}
-                      </h3>
+                      </h2>
                       <p className={`${typography.body} text-gray-500`}>
                         {photo.description}
                       </p>

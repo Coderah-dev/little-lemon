@@ -13,7 +13,9 @@ export default function Test1() {
           src={bgimg}
           alt='background'
           fill
-          priority
+          priority // 👈 critical for LCP
+          placeholder='blur' // 👈 avoids white flash
+          sizes='100vw' // 👈 tells browser it spans full viewport
           className='object-cover [mask-image:linear-gradient(to_bottom,rgba(0,0,0,1)_calc(100%-7rem),rgba(0,0,0,0)_100%)] [mask-repeat:no-repeat] [mask-size:100%_100%] [-webkit-mask-image:linear-gradient(to_bottom,rgba(0,0,0,1)_calc(100%-2rem),rgba(0,0,0,0)_100%)]'
         />
       </div>

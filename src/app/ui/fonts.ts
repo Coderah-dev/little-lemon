@@ -48,7 +48,7 @@ export const markazi = Markazi_Text({
 
 export const typography = {
   // H1 – Hero Title
-  // Min: ~18px on tiny screens → Max: 64px on desktop
+  // Min: ~18px → Max: 64px
   h1: "font-karla font-bold text-[clamp(1.125rem,6vw,4rem)] leading-[1.15] tracking-normal",
 
   // H2 – Section Titles
@@ -60,18 +60,18 @@ export const typography = {
   h3: "font-karla font-bold text-[clamp(0.75rem,3.5vw,1.5rem)] leading-[1.35]",
 
   // Body Paragraphs
-  // Min: ~11px → Max: 20px
-  body: "font-markazi text-[clamp(0.6875rem,2.5vw,1.25rem)] leading-[1.55]",
+  // Min: ~12px → Max: 20px
+  body: "font-markazi text-[clamp(0.75rem,2.5vw,1.25rem)] leading-[1.55]",
 
   // Small Body / Captions
-  // Min: ~10px → Max: 16px
-  small: "font-markazi text-[clamp(0.625rem,2vw,1rem)] leading-[1.45]",
+  // Min: ~12px → Max: 16px
+  small: "font-markazi text-[clamp(0.75rem,2vw,1rem)] leading-[1.45]",
 
   // CTA Buttons
-  // Min: ~11px → Max: 18px
-  cta: "font-karla font-bold text-[clamp(0.875rem,2.5vw,1.25rem)] tracking-[0.5px] uppercase ",
+  // Min: ~14px → Max: 20px
+  cta: "font-karla font-bold text-[clamp(0.875rem,2.5vw,1.25rem)] tracking-[0.5px] uppercase",
 
   // Navigation Menu
-  // Min: ~11px → Max: 18px
-  nav: "font-karla font-medium text-[clamp(0.6875rem,2.2vw,1.125rem)] tracking-wide",
+  // Min: ~12px → Max: 18px
+  nav: "font-karla font-medium text-[clamp(0.75rem,2.2vw,1.125rem)] tracking-wide",
 };

@@ -84,8 +84,7 @@ export default function SignatureDishesPreview({
               {featured.title}
             </h3>
 
-            <p
-              className={`${typography.body} text-[#828282] mt-2 line-clamp-3`}>
+            <p className={`${typography.body} text-gray-700 mt-2 line-clamp-3`}>
               {featured.description}
             </p>
 
@@ -119,7 +118,7 @@ export default function SignatureDishesPreview({
                     {dish.title}
                   </h3>
 
-                  <p className={`${typography.body} text-[#828282]`}>
+                  <p className={`${typography.body} text-gray-700`}>
                     {dish.description}
                   </p>
 

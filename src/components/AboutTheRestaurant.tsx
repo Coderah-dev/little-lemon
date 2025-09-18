@@ -38,7 +38,7 @@ export default function AboutTheRestaurant() {
               src={aboutImg}
               alt='Restaurant Chef'
               fill
-              className='object-fill'
+              className='object-cover'
               priority
             />
           </div>

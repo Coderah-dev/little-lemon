@@ -121,7 +121,7 @@ export default function PhotoGallery() {
                       />
                     </div>
                     <div className='flex flex-col gap-2 p-4'>
-                      <h2 className={`${typography.h2} text-black`}>
+                      <h2 className={`${typography.h3} text-black`}>
                         {photo.title}
                       </h2>
                       <p className={`${typography.body} text-gray-500`}>

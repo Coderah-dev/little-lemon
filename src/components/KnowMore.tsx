@@ -14,40 +14,8 @@ export default function KnowMoreSection() {
         </h2>
 
         {/* Buttons */}
-        <div className='flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-6 mt-4 lg:mt-0'>
+        <div className='flex flex-col justify-center items-center sm:flex-row gap-4 sm:gap-6 lg:gap-6 mt-4 lg:mt-0'>
           {/* Newsletter Button */}
-          {/* <Button
-            className={`
-              flex items-center justify-center
-              px-8 py-5 sm:px-6 sm:py-3
-              w-full sm:w-[123px] lg:w-[123px]
-              h-[67px]
-              bg-[rgb(var(--accent))] text-[rgb(var(--primary-foreground))]
-              rounded-[16px]
-              shadow-sm
-              ${typography.cta}
-              transition-transform duration-300 ease-in-out
-              hover:bg-[rgb(var(--accent-dark))] hover:-translate-y-0.5
-            `}>
-            Join the Newslette
-          </Button> */}
-
-          {/* Contact Button */}
-          {/* <Button
-            className={`
-              flex items-center justify-center
-              px-8 py-5 sm:px-6 sm:py-3
-              w-full sm:w-[217px] lg:w-[217px]
-              h-[67px]
-              bg-[rgb(var(--neutral-600))] text-[rgb(var(--neutral-100))]
-              rounded-[16px]
-              shadow-sm
-              ${typography.cta}
-              transition-transform duration-300 ease-in-out
-              hover:bg-[rgb(var(--neutral-800))] hover:-translate-y-0.5
-            `}>
-            Get in Touch
-          </Button> */}
           <Button
             className={`
                text-black
